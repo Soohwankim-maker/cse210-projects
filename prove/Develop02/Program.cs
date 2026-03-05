@@ -6,7 +6,7 @@ public class Entry
     public string Date { get; set; }
     public string Prompt { get; set; }
     public string Response { get; set; }
-    public string Mood { get; set; }   // Creativity addition
+    public string Mood { get; set; } 
 
     public Entry(string date, string prompt, string response, string mood)
     {
@@ -162,13 +162,3 @@ class Program
         Console.WriteLine("Goodbye!");
     }
 }
-
-/*
-CREATIVITY & EXCEEDING REQUIREMENTS:
-
-1. Added a mood field to each journal entry.
-2. Display total number of entries when showing the journal.
-3. Added error handling for invalid files.
-4. Clear separation of responsibilities to demonstrate abstraction.
-
-*/
