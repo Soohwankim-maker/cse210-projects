@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angle", "sandbox\Angle\Angl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatch", "sandbox\TryCatch\TryCatch.csproj", "{4BB64B41-9812-4980-8BFC-51D54E0F7967}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersnalProject", "PersnalProject\PersnalProject.csproj", "{581DCADF-F4D2-4ABD-BB0A-533064D0CBEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -331,6 +333,18 @@ Global
 		{4BB64B41-9812-4980-8BFC-51D54E0F7967}.Release|x64.Build.0 = Release|Any CPU
 		{4BB64B41-9812-4980-8BFC-51D54E0F7967}.Release|x86.ActiveCfg = Release|Any CPU
 		{4BB64B41-9812-4980-8BFC-51D54E0F7967}.Release|x86.Build.0 = Release|Any CPU
+		{581DCADF-F4D2-4ABD-BB0A-533064D0CBEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581DCADF-F4D2-4ABD-BB0A-533064D0CBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{581DCADF-F4D2-4ABD-BB0A-533064D0CBEB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{581DCADF-F4D2-4ABD-BB0A-533064D0CBEB}.Debug|x64.Build.0 = Debug|Any CPU
+		{581DCADF-F4D2-4ABD-BB0A-533064D0CBEB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{581DCADF-F4D2-4ABD-BB0A-533064D0CBEB}.Debug|x86.Build.0 = Debug|Any CPU
+		{581DCADF-F4D2-4ABD-BB0A-533064D0CBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581DCADF-F4D2-4ABD-BB0A-533064D0CBEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{581DCADF-F4D2-4ABD-BB0A-533064D0CBEB}.Release|x64.ActiveCfg = Release|Any CPU
+		{581DCADF-F4D2-4ABD-BB0A-533064D0CBEB}.Release|x64.Build.0 = Release|Any CPU
+		{581DCADF-F4D2-4ABD-BB0A-533064D0CBEB}.Release|x86.ActiveCfg = Release|Any CPU
+		{581DCADF-F4D2-4ABD-BB0A-533064D0CBEB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
