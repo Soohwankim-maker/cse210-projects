@@ -27,6 +27,11 @@ class Order
         return total;
     }
 
+    public string GetOrderSummary()
+    {
+        return $"{GetPackingLabel()}\n{GetShippingLabel()}\nTotal: ${GetTotalCost()}";
+    }
+
     public string GetPackingLabel()
     {
         string result = "Packing Label:\n";

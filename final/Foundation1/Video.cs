@@ -25,6 +25,11 @@ class Video
         return _comments.Count;
     }
 
+    public void Display()
+    {
+        Console.WriteLine(GetDisplay());
+    }
+
     public string GetDisplay()
     {
         string result = $"{_title} by {_author} ({_length}s)\n";

@@ -21,7 +21,7 @@ class Event
         return GetStandardDetails();
     }
 
-    public string GetShortDescription()
+   public virtual string GetShortDescription()
     {
         return $"{_title} ({this.GetType().Name}) - {_date}";
     }

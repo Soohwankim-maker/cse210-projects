@@ -9,6 +9,10 @@ class Activity
         _minutes = minutes;
     }
 
+    public virtual double GetDistance() => 0;
+    public virtual double GetSpeed() => 0;
+    public virtual double GetPace() => 0;
+
     public virtual string GetSummary()
     {
         return $"{_date} Activity";

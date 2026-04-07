@@ -29,5 +29,7 @@ class Program
         Console.WriteLine(order2.GetPackingLabel());
         Console.WriteLine(order2.GetShippingLabel());
         Console.WriteLine($"Total Cost: ${order2.GetTotalCost()}");
+
+        Console.WriteLine(order1.GetOrderSummary());
     }
 }
